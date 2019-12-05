@@ -3,6 +3,8 @@
 #' Allow button to be triggered by enter key.
 #' 
 #' @param id Id of button.
+#' @param input Active input that triggers, useful if you have 
+#' more than one button triggered by an enter key.
 #' 
 #' @import shiny 
 #' @export
