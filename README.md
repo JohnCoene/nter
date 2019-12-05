@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-Trigger shiny action button with the <kbd>C-return</kbd>> key.
+Trigger shiny action button with the <kbd>C-return</kbd> key.
 
 ## Example
 
