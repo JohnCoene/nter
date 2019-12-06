@@ -17,8 +17,8 @@ library(shiny)
 ui <- fluidPage(
   textInput("text", ""),
   actionButton("send", "Don't click hit enter"),
-  nter("send"),
-  verbatimTextOutput("typed")
+  verbatimTextOutput("typed"),
+  nter("send", "text") # trigger 'send' button when 'text' is active.
 )
 
 server <- function(input, output) {
@@ -26,7 +26,6 @@ server <- function(input, output) {
   txt <- eventReactive(input$send, {
     input$text
   })
-
 
   output$typed <- renderPrint(txt())
 }

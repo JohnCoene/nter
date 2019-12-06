@@ -4,13 +4,16 @@
 \alias{nter}
 \title{nter}
 \usage{
-nter(id, input = "window")
+nter(id, input = "window", key = "keyup")
 }
 \arguments{
 \item{id}{Id of button.}
 
 \item{input}{Active input that triggers, useful if you have 
 more than one button triggered by an enter key.}
+
+\item{key}{The key that triggers the button, defaults to \code{keyup}
+which is the enter key.}
 }
 \description{
 Allow button to be triggered by enter key.
